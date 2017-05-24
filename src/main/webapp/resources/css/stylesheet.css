@@ -1,0 +1,208 @@
+body {
+	max-width: 100%;
+    overflow-x: hidden;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+.background {
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+	font-size: 16px;
+}
+
+.header_bar {
+	background-color: #8c8c8c;
+	height: 20px;
+	margin-bottom: 50px;
+}
+.nav_login {
+	color: white;
+	text-decoration: none;
+}
+.nav_login:hover {
+	color: #84aff4;
+	text-decoration: none;
+}
+.header {
+	margin-top: 20px;
+	margin-bottom: 25px;
+}
+/* Login / Account creation */
+.login_box {
+	background: white;
+	color:black;
+	border: 1px solid #d9d9d9;
+	padding: 20px;
+	height: 200px;
+	border-top-right-radius: 5px;
+	border-top-left-radius: 5px;
+	text-align: center;	
+}
+.login_field, .password_field {
+	padding: 15px;
+}
+.login_field placeholder {
+	opacity: 0;
+}
+.light_box {
+	font-style: italic;
+	font-size: 14px;
+	margin-top: 5px;
+	background-color: #e6e6e6;
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px;
+}
+/* Upon hover placeholder fades*/
+.form-controll:hover::-webkit-input-placeholder { opacity: 0.3; } /* Chrome/Opera/Safari */
+.form-controll:hover::-moz-placeholder { opacity: 0.3; } /* Firefox 19+ */
+.form-controll:hover:-ms-input-placeholder { opacity: 0.3; } /* IE 10+ */
+.form-controll:hover:-moz-placeholder { opacity: 0.3; } /* Firefox 18- */
+/* Upon focu placeholder disapears*/
+.form-controll:focus::-webkit-input-placeholder { opacity: 0; } /* Chrome/Opera/Safari */
+.form-controll:focus::-moz-placeholder { opacity: 0; } /* Firefox 19+ */
+.form-controll:focus:-ms-input-placeholder { opacity: 0; } /* IE 10+ */
+.form-controll:focus:-moz-placeholder { opacity: 0; } /* Firefox 18- */
+
+/* ensures that dropdown box populates wrapper*/
+button.btn.dropdown-toggle.bs-placeholder.btn-default{
+	height:50px;
+
+}
+
+.top_margin {
+	margin-top:50px;
+}
+.input_box {
+	text-align: center;
+	border: 1px #e9e9e9 solid;
+}
+.error {
+	margin-top: 5px;
+	color: #ff0000;
+	font-style: italic;
+	font-size: 14px;
+}
+.marin20_error {
+	margin-top: 20px;
+	color: #ff0000;
+	font-style: italic;
+	font-size: 14px;
+}
+.login-button {
+	background: rgba(161, 217, 47, 1);
+	color: white;
+	border: solid 1px #e6e6e6;
+	
+}
+button.btn.login-button:hover {
+	color: white;
+	background: rgba(189, 255, 55, 1);
+}
+.create_box {
+	background: white;
+	color:black;
+	border: 1px solid #d9d9d9;
+	padding: 20px;
+	height: 100%;
+	border-top-right-radius: 5px;
+	border-top-left-radius: 5px;
+	text-align: center;	
+}
+.celebrate_box {
+	background: white;
+	color: black;
+	border: 1px solid #d9d9d9;
+	padding: 20px;
+	height: 100%;
+	border-top-right-radius: 5px;
+	border-top-left-radius: 5px;
+	text-align: center;
+	box-shadow:2px 2px 5px rgba(161, 217, 47, 1);
+}
+.create_field {
+	padding:0px;
+	margin-top:0px;
+	margin-bottom:10px;
+	width:100%;
+}
+.create_box label {
+	font-weight: 200px;
+}
+#create-button {
+	background: rgba(189, 255, 55, 1);
+	color: white;
+	border: solid 1px #e6e6e6;
+	margin-top:20px;
+}
+.placeholder {
+	float:left;
+	display:block;
+	text-decoration:none;
+}
+.table {
+	width:100%;
+	text-decoration: none;
+}
+.table_header {
+	width:25%;
+	border-bottom: 1px solid black;
+}
+.table tr, .table th {
+	text-align: center;
+}
+.delete_button {
+	width: 20px;
+	height: 20px;
+}
+button.btn.dropdown-toggle.btn-default {
+	height: 50px !important;
+}
+.bootstrap-select.btn-group .dropdown-menu li > a {
+    text-align: center;
+}
+.bootstrap-select.btn-group .dropdown-toggle .filter-option {
+	text-align: center !important;
+}
+/* Styling for Provider Selection */
+.provider {
+	vertical-align: middle;
+	display: table-cell;
+	height:100px;
+}
+.provider_logo {
+	vertical-align: middle;
+	width: 50%;
+}
+.expand {
+
+  -webkit-transition: all 300ms cubic-bezier(0.420, 0.000, 0.580, 1.000); 
+   -moz-transition: all 300ms cubic-bezier(0.420, 0.000, 0.580, 1.000); 
+     -o-transition: all 300ms cubic-bezier(0.420, 0.000, 0.580, 1.000); 
+        transition: all 300ms cubic-bezier(0.420, 0.000, 0.580, 1.000); 
+}
+.expand:hover {
+  z-index:1;
+  transform: scale(1.1,1.1);
+  -webkit-transition: all 300ms cubic-bezier(0.420, 0.000, 0.580, 1.000); 
+   -moz-transition: all 300ms cubic-bezier(0.420, 0.000, 0.580, 1.000); 
+     -o-transition: all 300ms cubic-bezier(0.420, 0.000, 0.580, 1.000); 
+        transition: all 300ms cubic-bezier(0.420, 0.000, 0.580, 1.000); 
+}
+/* Final Page Styling */
+.button {
+	background: rgba(161, 217, 47, 1);
+	color: white;
+	border: solid 1px #e6e6e6;
+	width: 200px;
+}
+.button:hover {
+	color: white !important;
+	background: rgba(189, 255, 55, 1);
+}
+
+.custom-panel-text {
+	color: black;
+}
+.custom-panel-text:hover {
+	color: black;
+}	
